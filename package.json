@@ -1,0 +1,21 @@
+{
+  "name": "ai-sitecore-rcstats-analyzer",
+  "version": "1.0.0",
+  "description": "A project for managing and compiling Sitecore rendering and cache statistics analysis guidance",
+  "main": "compile-prompt.js",
+  "scripts": {
+    "compile": "node compile-prompt.js",
+    "compile:dev": "node compile-prompt.js --dev",
+    "compile:prod": "node compile-prompt.js --prod",
+    "compile:skill": "node compile-prompt.js --skill-only",
+    "compile:copilot": "node compile-prompt.js --copilot-only",
+    "compile:all": "node compile-prompt.js --emit-skill --emit-copilot"
+  },
+  "keywords": ["sitecore", "renderings", "cache", "statistics", "analysis", "copilot", "prompt", "ai"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
